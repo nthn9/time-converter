@@ -22,9 +22,9 @@ def ask_to_continiue():
 
 def main():
     while True:
-        D, H, M = calculations(get_minuts_value())
+        d, h, m = calculations(get_minuts_value())
         print(f"<{60 * '-'}>")
-        print(f'Days: {D}, Hours:{H}, Minutes:{M}')
+        print(f'Days: {d}, Hours:{h}, Minutes:{m}')
         if ask_to_continiue(): break
 
 main()
